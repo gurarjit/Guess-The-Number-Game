@@ -9,7 +9,7 @@ const displayMessage = function (message) {
   document.querySelector('.message').textContent = message;
 };
 
-console.log(secretNumber);
+
 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
